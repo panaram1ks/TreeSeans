@@ -1,0 +1,33 @@
+/* 1 var */
+.container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.box-1 {
+    height: 500px;
+    width: 80%;
+    background-color: orange;
+
+    /* 2var 
+display: inline-block;
+*/
+
+    /* 3 var 
+    float: left
+    */
+}
+
+.box-2 {
+    height: 200px;
+    width: 30%;
+    background-color: green;
+
+    /* 2var 
+    display: inline-block;
+    */
+
+    /* 3 var 
+    float: right;
+    */
+}

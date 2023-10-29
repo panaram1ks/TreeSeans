@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree view UI</title>
+
+    <link rel="stylesheet" href="tree.css">
+
+</head>
+
+<body>
+
+    <div id="treeDeparts"></div>
+
+
+
+
+    
+    <ul class="tree">
+        <li class="parent">
+            <details>
+                <summary>Entartainment</summary>
+                <ul>
+                    <li>Movies</li>
+                    <li>Music</li>
+                    <li>Gossip</li>
+                    <li>Red Carpet</li>
+                </ul>
+            </details>
+        </li>
+        <li class="parent">
+            <details>
+                <summary>Regional News</summary>
+                <ul>
+                    <li>World</li>
+                    <li>
+                        <details>
+                            <summary>Asia Pacific</summary>
+                            <ul>
+                                <li>Australia</li>
+                                <li>Bangladesh</li>
+                                <li>China</li>
+                                <li>Indea</li>
+                                <li>Japan</li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li class="parent">Sports</li>
+        <li class="parent">Finance</li>
+    </ul>
+
+    <script src="data.js"></script>
+    <script src="dbrequests.js"></script>
+    <script src="treeHtml.js"></script>
+
+</body>
+</html>
